@@ -36,6 +36,8 @@ import {
 } from "@/components/ui/sheet";
 import { Logo } from "@/components/logo";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { ProtectedRoute } from "@/components/protected-route";
+import { useAuth } from "@/contexts/auth-context";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -48,11 +50,12 @@ const userAvatar = PlaceHolderImages.find(img => img.id === 'user-avatar-1');
 
 function ClientLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [isClient, setIsClient] = useState(false);
+  const { logout } = useAuth();
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  const handleLogout = () => {
+    logout();
+    window.location.href = "/login";
+  };
 
   return (
     <div className="flex min-h-screen w-full flex-col">
@@ -120,13 +123,13 @@ function ClientLayout({ children }: { children: React.ReactNode }) {
                 <DropdownMenuItem>Settings</DropdownMenuItem>
                 <DropdownMenuItem>Support</DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>Logout</DropdownMenuItem>
+                <DropdownMenuItem onClick={handleLogout}>Logout</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
         </div>
       </header>
       <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 bg-muted/40">
-        {isClient ? children : null}
+        {children}
       </main>
     </div>
   );
@@ -134,9 +137,9 @@ function ClientLayout({ children }: { children: React.ReactNode }) {
 
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
-  const [isClient, setIsClient] = useState(false)
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
-  return <>{isClient && <ClientLayout>{children}</ClientLayout>}</>
+  return (
+    <ProtectedRoute>
+      <ClientLayout>{children}</ClientLayout>
+    </ProtectedRoute>
+  )
 }
