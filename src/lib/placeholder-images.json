@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "furniture-chair",
+      "description": "A modern wooden chair.",
+      "imageUrl": "https://images.unsplash.com/photo-1532372576444-dda954194ad0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBjaGFpcnxlbnwwfHx8fDE3NjUyODU0NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern chair"
+    },
+    {
+      "id": "furniture-sofa",
+      "description": "A comfortable grey sofa.",
+      "imageUrl": "https://images.unsplash.com/photo-1698936061086-2bf99c7b9fc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmV5JTIwc29mYXxlbnwwfHx8fDE3NjUzNDI4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grey sofa"
+    },
+    {
+      "id": "wood-grain",
+      "description": "Close-up of wood grain.",
+      "imageUrl": "https://images.unsplash.com/photo-1515446134809-993c501ca304?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b29kJTIwZ3JhaW58ZW58MHx8fHwxNzY1MzQyODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood grain"
+    },
+    {
+      "id": "fabric-texture",
+      "description": "Close-up of fabric texture.",
+      "imageUrl": "https://images.unsplash.com/photo-1675784332655-675d1a1ddcf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYWJyaWMlMjB0ZXh0dXJlfGVufDB8fHx8MTc2NTI5MDMwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fabric texture"
+    },
+    {
+      "id": "metal-leg",
+      "description": "A metal leg of a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1559051668-934cd674493c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZXRhbCUyMGZ1cm5pdHVyZXxlbnwwfHx8fDE3NjUzNDI4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal furniture"
+    },
+    {
+      "id": "defect-scratch",
+      "description": "A scratch on a wooden surface.",
+      "imageUrl": "https://images.unsplash.com/photo-1727109795068-9c3eeed3c98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b29kJTIwc2NyYXRjaHxlbnwwfHx8fDE3NjUzNDI4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood scratch"
+    },
+    {
+      "id": "defect-stain",
+      "description": "A stain on a fabric cushion.",
+      "imageUrl": "https://images.unsplash.com/photo-1586249987590-ad4ea0c0d17c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYWJyaWMlMjBzdGFpbnxlbnwwfHx8fDE3NjUzNDI4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fabric stain"
+    },
+    {
+      "id": "packaging-box",
+      "description": "A cardboard box for packaging.",
+      "imageUrl": "https://images.unsplash.com/photo-1624137527136-66e631bdaa0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXJkYm9hcmQlMjBib3h8ZW58MHx8fHwxNzY1MjQ2MDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cardboard box"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for a user named Jane Doe.",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTMyNTc1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "logo-image",
+      "description": "Abstract logo image.",
+      "imageUrl": "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHNoYXBlfGVufDB8fHx8MTc2NTMyNzIyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract shape"
+    }
+  ]
+}
