@@ -162,3 +162,14 @@ export function addSamplePurpose(purpose: string) {
 export function deleteSamplePurpose(purpose: string) {
     samplePurposes = samplePurposes.filter(c => c !== purpose);
 }
+
+
+
+export function finalizeInspection(id: string) {
+  console.log("id",id);
+  
+  const inspection = inspections.find(i => i.id === id);
+  if (inspection) {
+    inspection.status = 'Completed';
+  }
+}
